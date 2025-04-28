@@ -10,9 +10,9 @@ function App() {
   return (
     <>
     {
-      service.map((e)=>{
+      service.map((e)=>(
 <ServiceCard data = {e}/>
-      })
+      ))
       
     }
     </>
